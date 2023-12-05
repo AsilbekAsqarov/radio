@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
+.online-div {
+  margin-left: 90%;
+}
+.img-div {
+  position: absolute;
+}
+.audio-div {
+  margin-left: 75%;
+  margin-top: 15%;
+}
+
+.volume-div {
+  margin-left: 82%;
+}
+
+/*DESKTOP version*/
+@media only screen and (max-width: 1200px) {
+}
+/* NOTEBOOK */
+@media only screen and (max-width: 992px) {
+  .error {
+    text-align: center;
+  }
+  .online-div {
+    font-size: 15px;
+    margin-left: 80%;
+  }
+  .img-div img {
+    width: 350px;
+  }
+  .audio-div {
+    margin-left: 45%;
+  }
+  .volume-div {
+    margin-left: 55%;
+  }
+}
+/* TABLE */
+@media only screen and (max-width: 768px) {
+  .error {
+    text-align: center;
+  }
+  .online-div {
+    font-size: 12px;
+    margin-left: 80%;
+  }
+  .img-div {
+    position: relative;
+    margin-left: 20%;
+  }
+  .img-div img {
+    width: 350px;
+  }
+  .audio-div {
+    margin-left: 25%;
+    margin-top: 2%;
+  }
+  .volume-div {
+    margin-left: 38%;
+  }
+}
+/* PHONE */
+@media only screen and (max-width: 576px) {
+  .error {
+    text-align: center;
+    font-size: 20px;
+  }
+  .online-div {
+    font-size: 10px;
+    margin-left: 80%;
+  }
+  .img-div {
+    position: relative;
+    margin-left: 15%;
+  }
+  .img-div img {
+    width: 300px;
+  }
+  .audio-div {
+    margin-left: 15%;
+    margin-top: 2%;
+  }
+  .volume-div {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .error {
+    text-align: center;
+    font-size: 20px;
+  }
+  .online-div {
+    font-size: 10px;
+    margin-left: 75%;
+  }
+  .img-div {
+    position: relative;
+    margin-left: 5%;
+  }
+  .img-div img {
+    width: 300px;
+  }
+  .audio-div {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .volume-div {
+    margin-left: 25%;
+  }
+}
+
+/* LITTLE PHONE */
+@media only screen and (max-width: 375px) {
+}
